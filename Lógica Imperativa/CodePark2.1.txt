@@ -1,0 +1,50 @@
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+Instruções do projeto
+Elabore um algoritmo para que o usuário, através da entrada de dados, informe os seus dados pessoais. Alguns desses dados
+fornecidos pelo usuário precisam ser apresentados na tela quando o algoritmo for executado, são eles:
+ 
+- Nome;
+- Endereço;
+- Cidade;
+- CPF;
+- RG.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+algoritmo  "inscricao"
+
+var
+nome, endereco, cidade : Caracter
+cpf, rg : Inteiro
+
+inicio
+escreval("Bem-vindo(a), para realizar o cadastro insira seus dados!")
+escreval(--------------------------)
+
+escreval("Digite seu nome completo: ")
+leia(nome)
+escreval("O seu nome é: ", nome)
+
+escreval("Digite seu endereço(rua, n°, bairro, cidade/estado) ")
+leia(endereco)
+escreval("Seu endereço é: ", endereco)
+
+escreval("Digite a sua cidade: ")
+leia(cidade)
+escreval("Sua cidade é: ", cidade)
+
+escreval("Digite seu CPF(apenas números): ")
+leia(cpf)
+escreval("O seu CPF é: ", cpf)
+
+escreval("Digite seu RG(apenas números): ")
+leia(rg)
+escreval("O seu RG é: ", rg)
+
+escreva("Seu cadastro foi realizado com sucesso!")
+
+fimalgoritmo

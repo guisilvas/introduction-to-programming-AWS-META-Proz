@@ -1,0 +1,67 @@
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+Algoritmo de inscrição:
+
+Instruções do projeto
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. o identificador das variáveis;
+2. a declaração das variáveis com seus respectivos identificadores e tipos de dado;
+3. a utilização do comando de atribuição, apresentando identificador e dado.
+
+1. nome, endereco : Caracter
+cpf, rg : Inteiro
+altura : Real
+
+2.
+caracter nome <- "José Almeida da Silva"
+inteiro cpf <- 12345678900
+inteiro rg <- 9517530
+real altura <- 1,78
+caractere endereco <- "Rua A, 380 – Centro – Recife/PE"
+
+3. 
+algoritmo  "inscricao"
+
+var
+nome, endereco : Caracter
+cpf, rg : Inteiro
+altura : Real
+
+inicio
+eacreval("Bem-vindo(a), para realizar o cadastro insira seus dados!")
+eacreval(--------------------------)
+
+escreva("Digite seu nome completo: ")
+leia (nome)
+escreva("O seu nome é: ", nome)
+
+escreva("Digite seu CPF(apenas números): ")
+leia(cpf)
+escreva("O seu CPF é: ", cpf)
+
+escreva("Digite seu RG(apenas números): ")
+leia(rg)
+escreva("O seu RG é: ", rg)
+
+escreva("Digite sua altura: ")
+leia(altura)
+escreva("A sua altura é: ", altura)
+
+escreva("Digite seu endereço(rua, n°, bairro, cidade/estado) ")
+leia(endereco)
+escreva("Seu endereço é: ", endereco)
+
+escreva("Seu cadastro foi realizado com sucesso!")
+
+fimalgoritmo

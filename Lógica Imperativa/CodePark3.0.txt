@@ -1,0 +1,67 @@
+Entender situações do cotidiano… para tomada de decisão
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um restaurante uma pessoa ou grupo de pessoas precisa ser alocada. O restaurante tem três áreas: térreo, 1ro andar, e área externa. Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa. Grupos de 5 ou mais precisam ser alocados no 1ro andar, pois não dá para juntar mesas no térreo. Qualquer outro grupo de pessoas pode ser alocado no térreo.
+
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+Atividade 1 - CodePark
+
+//Atividade 1 - CodePark
+//Algoritmo de restaurante para alocar os cliente de acordo com suas necessidades e disponibilidade dos locais do estabelecimento.
+//Locais: térreo, primeiro andar e área externa.
+//Clientes: tabagistas, com/sem pets e/ou em grupo (-5 ou +5 pessoas).
+//Térreo: não fumam, não estão com pets e até 5 pessoas. Primeiro andar: não fumam, não estão com pets. Área externa: sem exigências.
+
+algoritmo "restaurant place"
+
+var cliente, tabagista, grupo, pet : Caracter
+var membros: Inteiro
+
+inicio
+
+escreval("------------------------------------------------------------")
+escreval("                    Brazil Restaurant              ")
+escreval("------------------------------------------------------------")
+
+escreval("Olá, é um prazer os receber em nosso estabelecimento!")
+escrevaL
+
+escreval("Para escolher o melhor local para sua refeição faremos algumas perguntas.")
+escrevaL
+
+escreval("Por favor, insira seu nome aqui: ")
+leia(cliente)
+
+escreval("Bem vindo(a), ", cliente,".")
+
+escreval("Você ou alguém que o(a) acompanha é tabagista? (Sim ou Nao) ")
+leia(tabagista)
+   Se tabagista = "sim" entao
+      escreval("Muito bem ", cliente, ", se dirija à área externa. Bom apetite!")
+         Senao
+            escreval("Você ou algum acompanhante está com pet? (Sim ou Nao)")
+            leia(pet)
+               Se pet = "sim" entao
+                  escreval("Muito bem ", cliente, ", se dirija à área externa. Bom apetite!")
+                     Senao
+                        escreval("Você está acompanhado(a)? (sim ou nao) ")
+leia(grupo)
+Se grupo = "sim" entao
+   escreval("Quantas pessoas o(a) acompanha? ")
+      leia(membros)
+         Se membros > = 4 entao
+            escreval("Muito bem ", cliente, ", por favor se dirija ao primeiro andar. Bom apetite!")
+               Senao
+                  escreval("Muito bem ", cliente, ", por favor se dirija ao térreo ou primeiro andar. Bom apetite!")
+                     fimse
+                        fimse
+                           fimse
+                              fimse
+
+escreval("------------------------------------------------------------")
+escreval("Obrigado pela preferência, nossa motivação é a sua satisfação.                        Brazil Restaurant.")
+escreval("------------------------------------------------------------")
+
+FimAlgoritmo

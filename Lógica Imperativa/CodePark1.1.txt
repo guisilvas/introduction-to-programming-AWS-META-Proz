@@ -1,0 +1,18 @@
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+Atividade da cadeira na sala de aula.
+
+Imagem 1:
+Analisando o padrão nas fileiras a partir da primeira imagem é possível perceber que em cada linha e coluna ou possuem 3 alunos que gostam de português e 2 de matemática ou 3 alunos que gostam de matemática, e 2 de português. Formando assim a matriz 5x5.
+
+Imagem 2:
+Já na segunda imagem vemos que o padrão não se altera, mas, já que 11 alunos foram acrescentados se adiciona um aluno a cada linha e coluna na imagem representada. O que também acaba criando uma nova linha e coluna tornando a matriz 6x6. Além de onde antes havia 3 alunos que gostam de uma matéria e 2 de outra, agora há 4 que gostam de uma e 2 de outra.
+
+Imagem 3:
+Na última imagem, se mantém a mesma estrutura da imagem 2, porém um aluno que gostam mais de matemática assume o lugar de um que gosta de português.
+
+Conclusão:
+Seguindo a sequência do raciocínio vemos facilmente onde está o erro, na posição e5 vemos que um aluno P está na posição que pertencia a um aluno M. É possível confirmar analisando a linha e coluna dessa posição pois o padrão que se repetia é alterado.

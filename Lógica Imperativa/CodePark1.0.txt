@@ -1,0 +1,54 @@
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+Algoritmo para a preparação do bolo de chocolate:
+
+Certifique-se de possuir os ingredientes e recipientes necessários para o preparo da receita. Situados logo abaixo:
+
+Ingredientes:
+3 ovos;
+3 colheres (sopa) de manteiga;
+1 xícara de açúcar;
+1 ½ xícara de leite;
+4 colheres (sopa) de achocolatado;
+2 xícaras de farinha de trigo;
+1 colher (sopa) fermento químico em pó.
+Recipientes:
+Forma;
+Colher;
+Batedeira;
+Forno;
+Palito;
+Luva de cozinheiro ou pano;
+Recipientes para reservar os ingredientes.
+
+Verifique:
+Caso possua todos os itens das listas podemos iniciar a receita, se não, verifique o que falta e providencie para dar prosseguimento à receita.
+
+Preaquecimento do forno:
+Preaqueça o forno por 40 minutos em temperatura média, cerca de 180°C.
+Durante o aquecimento podemos prosseguir com a receita.
+
+Unte a forma:
+Antes de iniciar o processo de preparo unte a forma com manteiga, após untar polvilhe farinha de trigo sobre a manteiga e reserve. Certifique-se de que a forma está untada uniformemente, se sim, prossiga para o próximo passo, se não, realize o processo novamente até que o resultado esperado seja atingido.
+
+Processo da massa:
+Na batedeira, adicione a manteiga, os ovos e o açúcar. Bata por aproximadamente 4 minutos.
+Adicione a farinha de trigo e o leite, continue batendo por mais 3 minutos.
+Adicione o fermento e continue batendo por mais 3 minutos.
+Caso a massa não esteja homogênea ou esteja muito líquida, bata mais um pouco. Depois despeje a massa na forma já untada e reserve.
+
+Assar:
+Caso o forno já esteja aquecido por 40 minutos na temperatura média, adicione a forma com a massa ao forno e deixe assar por 30 minutos.
+Mas, se ainda não estiver aquecido aguarde o período e realize esse processo.
+
+Verificar o ponto:
+Com o palito e os 30 minutos passados, retire a forma cuidadosamente com o equipamento de proteção necessário, podendo ser uma luva de cozinheiro ou um pano. Fure o bolo, caso o palito saia limpo pode reservar a forma para desenformar o bolo, caso contrário volte-a para o forno por mais 15 minutos e repita o processo até que o palito saia limpo.
+Após retirar o bolo no ponto certo, certifique-se de desligar o forno.
+
+Desenformar:
+Após retirar o bolo, reserve a forma até que a temperatura esteja ambiente. Desenforme o bolo e sirva.
+
+Parabéns! Se todos os processos acima foram concluídos com sucesso o seu bolo de chocolate está pronto.

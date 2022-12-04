@@ -1,0 +1,70 @@
+Usar métodos de repetição… agilizar os processos
+Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem. Por exemplo, se o nome da equipe é “Os Lutadores”, o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente.
+Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+Atividade 2 - CodePark
+
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 23/10/2022
+
+//Atividade 2 - CodePark
+//Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem. Por exemplo, se o nome da equipe é “Os Lutadores”, o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente.
+//Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+algoritmo "esports team"
+
+var player : Caracter
+var Cloud7, G1, TSN, Liquit, Furious, team, number, member : Inteiro
+
+inicio
+
+escreval("------------------------------------------------------------")
+escreval("                    e-Sport Team              ")
+escreval("------------------------------------------------------------")
+
+escreval("Hello, welcome!")
+escrevaL
+
+escreval("First, to find your correct shirt we need to ask you some questions!")
+escrevaL
+
+escreval("Please, enter your nick: ")
+leia(player)
+
+escreval("Welcome, ", player,".")
+
+escreval("These are the e-Sport teams")
+
+escreval ("1. Cloud7")
+escreval("2. Furious")
+escreval("3. G1")
+escreval("4. Liquit")
+escreval("5. TSN")
+leia(team)
+
+   Escolha team
+      Caso 1 faca
+         escreval("You are ", player," from  Cloud7")
+      Caso 2 faca
+         escreval("You are ", player," from Furious")
+      Caso 3 faca
+         escreval("You are ", player," from G1")
+      Caso 4 faca
+         escreval("You are ", player," from Liquit")
+      Outrocaso
+         escreval("You are ", player," from TSN")
+            fimescolha
+
+escreval("How many players are already on your team? ")
+leia(member)
+
+para number <- 1 ate member passo 1 faca
+   escreval(player, number, "-", team)
+      fimpara
+escreval("------------------------------------------------------------")
+escreval("Thx ;)")
+escreval("------------------------------------------------------------")
+
+   FimAlgoritmo
