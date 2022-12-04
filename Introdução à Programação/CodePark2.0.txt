@@ -1,0 +1,27 @@
+Linguagem e lógica de programação
+Professora: Juliana Sinnott 
+Autor: Guilherme Soares Silva 
+Atualizado em: 26/10/2022
+
+INSTRUÇÕES DO PROJETO
+Desenvolva um programa que utiliza o nome de um aluno, duas notas e a quantidade de faltas que ele teve. Conclua se o aluno está aprovado ou reprovado de acordo com as especificações:
+
+- Se a média do aluno for menor que sete, o sistema deve informar o nome do aluno e que ele está reprovado;
+- Se o aluno possuir mais de três faltas, o sistema deve informar o nome do aluno e que ele está reprovado; 
+- Se a média do aluno for maior ou igual a sete, o sistema deve informar o nome do aluno e que ele está aprovado. 
+
+No sistema, todos os valores devem estar armazenados em variáveis.
+
+Codepark 1 - Aula 3
+
+True (O valor atribuído à variável nota é 10, logo 10 é igual a 10.)
+
+False. Para a relação and ser verdadeira ambos os valores precisam ser verdadeiros, nota <= 6 é verdadeiro mas faltas <= 3 é falso.
+
+False. Para a relação or ser válida pelo menos um dos resultados deve ser verdadeiro. Porém convidados vale 3, logo não é maior que 4, e fumante é falso.
+
+False. A variável dia é "qua", portanto não pode ser "sab" nem "dom".
+
+True. Utilizar not ou ! antes da atribuição cancela essa atribuição. Ou seja, not(feriado == False) significa o resultado contrário, True.
+
+False. Utilizando or qualquer uma das atribuições pode ser verdadeira para essa sentença ser True, mas nesse exemplo dia não é "seg" e feriado é falso.
