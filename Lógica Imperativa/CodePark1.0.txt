@@ -3,6 +3,10 @@ Professora: Juliana Sinnott
 Autor: Guilherme Soares Silva 
 Atualizado em: 23/10/2022
 
+INSTRUÇÕES DO PROJETO
+Pedro foi ao supermercado e comprou ovos, leite, farinha, açúcar, manteiga e achocolatado em pó para fazer um bolo de chocolate. Como ele nunca fez um bolo antes, ele está bastante confuso e perdido. Auxilie Pedro construindo uma sequência lógica dos passos necessários para a preparação desse bolo. 
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
 Algoritmo para a preparação do bolo de chocolate:
 
 Certifique-se de possuir os ingredientes e recipientes necessários para o preparo da receita. Situados logo abaixo:
