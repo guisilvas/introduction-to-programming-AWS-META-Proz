@@ -1,0 +1,85 @@
+<!-- Instruções do Projeto
+Crie exemplos de utilização das tags mais comuns na HTML: metadados, separação de conteúdo, texto,
+imagem e formulário. É necessário pelo menos dois exemplos de cada tipo.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<title> é um tag de metadado responsável por fornecer o título do site-->
+    <title>Code Park 1 HTML/CSS</title>
+</head>
+<body>
+    <!--A tag header é uma tag de separação de conteúdo responsável pelo cabeçalho-->
+    <header>
+        Para a realização dessa atividade resolvi listar alguns físicos e mostrar algumas de suas contribuições.
+    </header>
+    <!--A tag main é um exemplo de tag de separação. Ela indica o conteúdo principal da página-->
+    <main>
+        <!--As tags h1 até o h6 também são exemplos de tags de separação de conteúdo-->
+        <h1>Físicos importantes para os avanços físicos e tecnológicos</h1>
+        <hr>
+            <h2>Vamos ver alguns deles:</h2>
+                <!--As tags ol, ul e li fazem parte das listas e são tags de conteúdo textual-->
+                <ol>
+                    <li>Isaac Newton</li>
+                    <!--Aqui alguns exemplos de imagens-->
+                    <div class="container">
+                        <img src="imgcd1/newton.jpg" alt="Foto Isaac Newton" width="320" height="345" />
+                    </div>
+                        <ul>
+                            <li>Lei da gravitação universal</li>
+                            <li>Decomposição da luz solar no espectro</li>
+                            <li>Anéis coloridos da luz solar no espectro</li>
+                        </ul>
+                    <li>Arquimedes</li>
+                    <div class="container">
+                        <img src="imgcd1/arquimedes.jpg" alt="Arquimedes(representação)" width="320" height="305" />
+                    </div>
+                        <ul>
+                            <li>Fundações da hidrostática e da estática</li>
+                            <li>Lei do impulso</li>
+                            <li>Lei da alavanca</li>
+                        </ul>
+                    <li>Albert Einstein</li>
+                    <div class="container">
+                        <img src="imgcd1/einstein.jpg" alt="Foto Albert Einstein" width="360" height="305" />
+                    </div>
+                        <ul>
+                            <li>Teoria da relatividade geral e restrita</li>
+                            <li>Efeito fotoelétrico</li>
+                            <li>Movimento browniano</li>
+                        </ul>
+                    <li>Erwin Schrödinger</li>
+                    <div class="container">
+                        <img src="imgcd1/schrödinger.jpg" alt="Foto Erwin Schrödinger" width="320" height="300" />
+                    </div>
+                        <ul>
+                            <li>Equação de Schrödinger</li>
+                            <li>Modelo atômico de Schrödinger</li>
+                        </ul>
+                </ol>
+    </main>
+    <footer>
+        <form action="">
+            <label for="selectName">Qual físico você achou mais interessante?</label>
+            <select name="Físicos" id="selectName">
+                <option value="newton">Isaac Newton</option>
+                <option value="arquimedes">Arquimedes</option>
+                <option value="einstein">Albert Einstein</option>
+                <option value="schrödinger">Erwin Schrödinger</option>
+            </select>
+        </form>
+        <form action="">
+            <label for="selectName">Dentre estas, contribuição você gostou mais?</label>
+            <select name="Físicos" id="selectName">
+                <option value="newton">Lei da gravitação</option>
+                <option value="arquimedes">Lei do impulso</option>
+                <option value="einstein">Efeito fotoelétrico</option>
+                <option value="schrödinger">Equação de Schrödinger</option>
+            </select>
+        </form>
+    </footer>
+</body>
+</html>
