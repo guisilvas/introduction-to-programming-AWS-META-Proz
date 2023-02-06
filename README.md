@@ -1,4 +1,4 @@
-# Introduction to Programming - Proz / AWS / Portal Tech / Meta
+# Introduction to Programming - AWS / Meta / Proz / Portal Tech
 ### Code Parks and Tasks
 HTML, CSS, JavaScript and Data Base
 
